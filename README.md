@@ -1,2 +1,3 @@
-# onchair
-Sit On Chair site
+# sit on chair
+
+This repository contains Sit On Chair site construction
