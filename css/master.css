@@ -7,12 +7,14 @@ body {
   font-family: sans-serif;
 }
 
+/* general clases */
+
 .site-width {
   width: 90%;
   margin: 0 auto;
 }
 
-.reset-float {
+.reset-float::after {
   clear: both;
   display: block;
   content: '';
@@ -30,7 +32,37 @@ body {
   margin: 0 auto;
 }
 
-.slider {
+/* header box */
+
+header {
+  height: 40px;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu-bottom {
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 20px;
+}
+
+.menu-bottom li {
+  display: block;
+}
+
+/* slider box */
+
+.slider-box {
   height: 500px;
   background-image: url(../img/background-slider.png);
 }
@@ -69,7 +101,7 @@ body {
 
 .button {
   width: 250px;
-  height: 60px;
+  height: 55px;
   background-color: #2EB9A0;
   border-radius: 10px;
 }
@@ -82,4 +114,26 @@ body {
   text-transform: uppercase;
   display: inline-block;
   padding: 7% 0 0 0;
+}
+
+/* picture box */
+
+.picture-box {
+
+}
+
+.picture-in-picturebox {
+
+}
+
+.text-in-picturebox {
+
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.colored {
+  color: #2EB9A0;
 }
