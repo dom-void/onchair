@@ -72,26 +72,25 @@ header {
 }
 
 /* slider box */
-section {
+.slider {
   background-image: url(../img/background-slider.png);
 }
 
-section .slider-box {
+.slider .slider-box {
   height: 500px;
 }
 
-section .slider-box > div:first-child {
+.slider .slider-box > div:first-child {
   text-align: right;
 }
 
-section .slider-box > div:last-child {
+.slider .slider-box > div:last-child {
   text-align: left;
 }
 
 .turn-slider {
   color: #2EB9A0;
   width: 10%;
-  height: 100%;
   font-size: 80px;
   font-weight: 200;
   padding-top: 210px;
@@ -108,7 +107,6 @@ section .slider-box > div:last-child {
 
 .text-in-slider {
   width: 40%;
-  height: 100%;
   text-align: center;
   padding-top: 140px;
 }
@@ -145,6 +143,33 @@ section .slider-box > div:last-child {
 }
 
 /* picture box */
+.picture-box {
+  width: 90%;
+  height: 350px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture-box div:first-child {
+  background-image: url(../img/box1_img.jpg);
+}
+
+.picture-box div:nth-child(2) {
+  background-image: url(../img/box2_img.jpg);
+}
+
+.picture-box .picture-in-picturebox {
+  width: 31%;
+  height: 19.1vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.picture-box .text-in-picturebox {
+  width: 31%;
+}
+
 h1 {
   text-transform: uppercase;
 }
