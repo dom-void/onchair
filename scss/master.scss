@@ -45,11 +45,18 @@ header {
   // position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
+  // div:first-child {
+  //   // padding-top: 5px;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  // }
 }
 
 .logo {
   text-transform: uppercase;
+  padding-top: 5px;
 }
 
 .menu {
@@ -57,7 +64,7 @@ header {
     li {
         display: inline-block;
         text-transform: uppercase;
-        margin-left: 50px;
+        margin-left: 30px;
         padding: 5px 10px;
     }
 }
@@ -77,17 +84,19 @@ header {
 }
 
 /* slider box */
-
-.slider-box {
-  height: 500px;
+section {
   background-image: url(../img/background-slider.png);
-  >div:first-child {
-    text-align: right;
-  }
-  >div:last-child {
-    text-align: left;
+  .slider-box {
+    height: 500px;
+    >div:first-child {
+      text-align: right;
+    }
+    >div:last-child {
+      text-align: left;
+    }
   }
 }
+
 
 .turn-slider {
   color: #2EB9A0;

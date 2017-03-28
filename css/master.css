@@ -39,11 +39,11 @@ header {
   background-color: black;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .logo {
   text-transform: uppercase;
+  padding-top: 5px;
 }
 
 .menu {
@@ -53,7 +53,7 @@ header {
 .menu li {
   display: inline-block;
   text-transform: uppercase;
-  margin-left: 50px;
+  margin-left: 30px;
   padding: 5px 10px;
 }
 
@@ -72,16 +72,19 @@ header {
 }
 
 /* slider box */
-.slider-box {
-  height: 500px;
+section {
   background-image: url(../img/background-slider.png);
 }
 
-.slider-box > div:first-child {
+section .slider-box {
+  height: 500px;
+}
+
+section .slider-box > div:first-child {
   text-align: right;
 }
 
-.slider-box > div:last-child {
+section .slider-box > div:last-child {
   text-align: left;
 }
 
