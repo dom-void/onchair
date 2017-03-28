@@ -8,6 +8,7 @@ body {
 }
 
 /* general clases */
+
 .site-width {
   width: 90%;
   margin: 0 auto;
@@ -32,10 +33,12 @@ body {
 }
 
 /* header box */
+
 header {
   height: 40px;
   color: white;
   background-color: black;
+  // position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,31 +49,31 @@ header {
 }
 
 .menu {
-  font-size: 14px;
+    font-size: 14px;
+    li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-left: 50px;
+        padding: 5px 10px;
+    }
 }
-
-.menu li {
-  display: inline-block;
-  text-transform: uppercase;
-  margin-left: 50px;
-  padding: 5px 10px;
-}
+    
 
 .menu-bottom {
-  background-color: black;
-  position: absolute;
-  top: 55px;
-  display: flex;
-  flex-direction: column;
-}
-
-.menu-bottom li {
-  width: auto;
-  text-transform: none;
-  margin: 5px 0;
+    background-color: black;
+    position: absolute;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    li {
+        width: auto;
+        text-transform: none;
+        margin: 5px 0;
+    }
 }
 
 /* slider box */
+
 .slider-box {
   height: 500px;
   background-image: url(../img/background-slider.png);
@@ -100,6 +103,14 @@ header {
   text-align: center;
 }
 
+.text-in-slider h1 {
+
+}
+
+.text-in-slider p {
+
+}
+
 .button {
   width: 250px;
   height: 55px;
@@ -118,6 +129,19 @@ header {
 }
 
 /* picture box */
+
+.picture-box {
+
+}
+
+.picture-in-picturebox {
+
+}
+
+.text-in-picturebox {
+
+}
+
 h1 {
   text-transform: uppercase;
 }
@@ -125,5 +149,3 @@ h1 {
 .colored {
   color: #2EB9A0;
 }
-
-/*# sourceMappingURL=../maps/master.css.map */
