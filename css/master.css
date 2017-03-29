@@ -10,7 +10,7 @@ html {
 
 /* general clases */
 .site-width {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -171,7 +171,7 @@ header {
 
 /* picture box */
 .picture-box {
-  width: 90%;
+  width: 85%;
   height: 350px;
   padding-top: 30px;
   display: flex;
