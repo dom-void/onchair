@@ -356,6 +356,13 @@ a .button:hover {
   border-radius: 7px;
 }
 
+.price-box .price-button-box a .price-button:hover {
+  color: #2EB9A0;
+  background-color: white;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
 .green-colored .price-box-circle-box .price-box-circle-big {
   background-color: #2EB9A0;
   border-color: #2EB9A0;
@@ -399,12 +406,7 @@ a .button:hover {
   background: white;
 }
 
-.price-box .price-button:hover {
-  color: #2EB9A0;
-  background-color: white;
-}
-
-.green-colored .price-button:hover {
+.green-colored .price-button-box a .price-button:hover {
   color: white;
   background-color: #2EB9A0;
 }
