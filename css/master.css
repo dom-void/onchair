@@ -352,4 +352,50 @@ header {
   font-weight: 300;
 }
 
+.green-box .price-box-circle-box .price-box-circle-big {
+  background-color: #2EB9A0;
+  border-color: #2EB9A0;
+}
+
+.green-box .price-box-circle-box .price-box-circle-big .price-box-circle-small {
+  background-color: #F8F9FA;
+}
+
+.green-box .price-box-content {
+  background: #2EB9A0;
+  border-color: #2EB9A0;
+}
+
+.green-box .price-name {
+  color: white;
+}
+
+.green-box .price-circle {
+  color: #2EB9A0;
+  background-color: #F8F9FA;
+  border-color: #2EB9A0;
+}
+
+.green-box .price-circle p {
+  color: #2EB9A0;
+}
+
+.green-box .price-list .price-list-item:nth-of-type(2n+1) {
+  color: #B5B6B7;
+  background: #F8F9FA;
+}
+
+.green-box .price-list .price-list-item:nth-of-type(2n+2) {
+  color: #B5B6B7;
+  background: #F0F1F2;
+}
+
+.green-box .price-button-box .price-button {
+  background: white;
+}
+
+.green-box .price-button-box .price-button a {
+  color: #2EB9A0;
+}
+
 /*# sourceMappingURL=../maps/master.css.map */

@@ -353,3 +353,50 @@ header {
     }
   }
 }
+
+.green-box {
+  .price-box-circle-box {
+    .price-box-circle-big {
+      background-color: #2EB9A0;
+      border-color: #2EB9A0;
+      .price-box-circle-small {
+        background-color: #F8F9FA;
+      }
+    }
+  }
+  .price-box-content {
+    background: #2EB9A0;
+    border-color: #2EB9A0;
+  }
+  .price-name {
+    color: white;
+  }
+  .price-circle {
+    color: #2EB9A0;
+    background-color: #F8F9FA;
+    border-color: #2EB9A0;
+    p {
+      color: #2EB9A0;
+    }
+  }
+  .price-list {
+    .price-list-item {
+      &:nth-of-type(2n+1) {
+        color: #B5B6B7;
+        background: #F8F9FA;
+      }
+      &:nth-of-type(2n+2) {
+        color: #B5B6B7;
+        background: #F0F1F2;
+      }
+    }
+  }
+  .price-button-box {
+    .price-button {
+      background: white;
+      a {
+        color: #2EB9A0;
+      }
+    }
+  }
+}
