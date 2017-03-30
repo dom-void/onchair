@@ -75,6 +75,12 @@ p {
   line-height: 1.2rem;
 }
 
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 300;
+}
+
 /* header box */
 header {
   height: 40px;
@@ -347,55 +353,147 @@ header {
 
 .price-box .price-button-box .price-button a {
   color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 300;
 }
 
-.green-box .price-box-circle-box .price-box-circle-big {
+.green-colored .price-box-circle-box .price-box-circle-big {
   background-color: #2EB9A0;
   border-color: #2EB9A0;
 }
 
-.green-box .price-box-circle-box .price-box-circle-big .price-box-circle-small {
+.green-colored .price-box-circle-box .price-box-circle-big .price-box-circle-small {
   background-color: #F8F9FA;
 }
 
-.green-box .price-box-content {
+.green-colored .price-box-content {
   background: #2EB9A0;
   border-color: #2EB9A0;
 }
 
-.green-box .price-name {
+.green-colored .price-name {
   color: white;
 }
 
-.green-box .price-circle {
+.green-colored .price-circle {
   color: #2EB9A0;
   background-color: #F8F9FA;
   border-color: #2EB9A0;
 }
 
-.green-box .price-circle p {
+.green-colored .price-circle p {
   color: #2EB9A0;
 }
 
-.green-box .price-list .price-list-item:nth-of-type(2n+1) {
+.green-colored .price-list .price-list-item:nth-of-type(2n+1) {
   color: #B5B6B7;
   background: #F8F9FA;
 }
 
-.green-box .price-list .price-list-item:nth-of-type(2n+2) {
+.green-colored .price-list .price-list-item:nth-of-type(2n+2) {
   color: #B5B6B7;
   background: #F0F1F2;
 }
 
-.green-box .price-button-box .price-button {
+.green-colored .price-button-box .price-button {
   background: white;
 }
 
-.green-box .price-button-box .price-button a {
+.green-colored .price-button-box .price-button a {
   color: #2EB9A0;
+}
+
+.contact-container {
+  width: 100%;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-container .form-box {
+  width: 63%;
+  height: 380px;
+}
+
+.contact-container .form-box form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-container .form-box form input {
+  color: #B0B1B2;
+  font-size: 2rem;
+  font-weight: 200;
+  height: 65px;
+  border: 1px solid #2EB9A0;
+  padding: 0 15px 0 15px;
+}
+
+.contact-container .form-box form textarea {
+  color: #B0B1B2;
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  height: 190px;
+  border: 1px solid #2EB9A0;
+  padding: 15px;
+}
+
+.contact-container .send-box {
+  width: 32%;
+  background-image: url(../img/red_chair.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  padding-top: 225px;
+  position: relative;
+}
+
+.contact-container .send-box div {
+  display: flex;
+  align-items: center;
+}
+
+.contact-container .send-box div input[type=checkbox] {
+  display: none;
+}
+
+.contact-container .send-box div input[type=checkbox] + label {
+  background: white;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #2EB9A0;
+}
+
+.contact-container .send-box div input[type=checkbox]:checked + label {
+  display: inline-block;
+  background-image: url(../img/checked.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-container .send-box div span {
+  color: #B0B1B2;
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 1.3rem;
+  padding: 0 15px 0 15px;
+}
+
+.contact-container .send-box .send-button {
+  width: 100%;
+  height: 70px;
+  background-color: #2EB9A0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+}
+
+.contact-container .send-box .send-button a {
+  color: white;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=../maps/master.css.map */
