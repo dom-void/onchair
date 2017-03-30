@@ -172,7 +172,7 @@ header {
 /* picture box */
 .picture-box {
   width: 85%;
-  height: 350px;
+  height: 330px;
   padding-top: 30px;
   display: flex;
   justify-content: center;
