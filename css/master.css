@@ -107,7 +107,21 @@ header {
   padding: 5px 10px;
 }
 
-.menu-bottom {
+.submenu {
+  display: block;
+}
+
+.submenu .menu-square {
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 46px;
+  margin-left: 28px;
+}
+
+.submenu .menu-bottom {
   background-color: black;
   position: absolute;
   top: 55px;
@@ -115,7 +129,7 @@ header {
   flex-direction: column;
 }
 
-.menu-bottom li {
+.submenu .menu-bottom li {
   width: auto;
   text-transform: none;
   margin: 5px 0;
@@ -525,10 +539,16 @@ footer .media-links {
   margin: 0 0 15px 270px;
 }
 
+footer .media-links a {
+  margin: 2px;
+}
+
 footer .media-links a div {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 footer .media-links a:first-of-type div {

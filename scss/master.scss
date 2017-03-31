@@ -119,9 +119,19 @@ header {
         padding: 5px 10px;
     }
 }
-    
 
-.menu-bottom {
+.submenu {
+  display: block;
+  .menu-square {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 46px;
+    margin-left: 28px;
+  }
+  .menu-bottom {
     background-color: black;
     position: absolute;
     top: 55px;
@@ -132,6 +142,7 @@ header {
         text-transform: none;
         margin: 5px 0;
     }
+  }
 }
 
 /* slider box */
@@ -529,10 +540,13 @@ footer {
     flex-direction: row;
     margin: 0 0 15px 270px;
     a {
+      margin: 2px;
       div {
         width: 35px;
         height: 35px;
         border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
       }
       &:first-of-type {
         div {
