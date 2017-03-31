@@ -6,6 +6,7 @@
 html {
   font-family: sans-serif;
   font-size: 16px;
+  background-color: white;
 }
 
 /* general clases */
@@ -508,6 +509,42 @@ a .button:hover {
   background-color: white;
   border: 2px solid #2EB9A0;
   box-sizing: border-box;
+}
+
+footer {
+  color: #949596;
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .media-links {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 15px 270px;
+}
+
+footer .media-links a div {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+footer .media-links a:first-of-type div {
+  background-image: url(../img/flickr.png);
+}
+
+footer .media-links a:nth-of-type(2) div {
+  background-image: url(../img/vimeo.png);
+}
+
+footer .media-links a:nth-of-type(3) div {
+  background-image: url(../img/pinterest.png);
+}
+
+footer .media-links a:last-of-type div {
+  background-image: url(../img/twitter.png);
 }
 
 /*# sourceMappingURL=../maps/master.css.map */
