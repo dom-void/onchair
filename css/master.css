@@ -15,7 +15,7 @@ html {
   margin: 0 auto;
 }
 
-.reset-float::after {
+.reset-float::before, .reset-float::after {
   clear: both;
   display: block;
   content: '';
@@ -109,22 +109,20 @@ header {
 
 .submenu {
   display: block;
+  position: absolute;
+  top: 31px;
 }
 
 .submenu .menu-square {
-  width: 18px;
-  height: 18px;
-  background-color: black;
-  transform: rotate(45deg);
-  position: absolute;
-  top: 46px;
-  margin-left: 28px;
+  width: 0;
+  height: 0;
+  margin-left: 22px;
+  border: 11px solid transparent;
+  border-bottom: 12px solid black;
 }
 
 .submenu .menu-bottom {
   background-color: black;
-  position: absolute;
-  top: 55px;
   display: flex;
   flex-direction: column;
 }
