@@ -541,9 +541,6 @@ footer .media-links {
 
 footer .media-links a {
   margin: 2px;
-}
-
-footer .media-links a div {
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -551,19 +548,19 @@ footer .media-links a div {
   background-repeat: no-repeat;
 }
 
-footer .media-links a:first-of-type div {
+footer .media-links a:first-of-type {
   background-image: url(../img/flickr.png);
 }
 
-footer .media-links a:nth-of-type(2) div {
+footer .media-links a:nth-of-type(2) {
   background-image: url(../img/vimeo.png);
 }
 
-footer .media-links a:nth-of-type(3) div {
+footer .media-links a:nth-of-type(3) {
   background-image: url(../img/pinterest.png);
 }
 
-footer .media-links a:last-of-type div {
+footer .media-links a:last-of-type {
   background-image: url(../img/twitter.png);
 }
 

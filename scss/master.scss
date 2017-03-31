@@ -541,32 +541,22 @@ footer {
     margin: 0 0 15px 270px;
     a {
       margin: 2px;
-      div {
-        width: 35px;
-        height: 35px;
-        border-radius: 50%;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
       &:first-of-type {
-        div {
-          background-image: url(../img/flickr.png);
-        }
+        background-image: url(../img/flickr.png);
       }
       &:nth-of-type(2) {
-        div {
-          background-image: url(../img/vimeo.png);
-        }
+        background-image: url(../img/vimeo.png);
       }
       &:nth-of-type(3) {
-        div {
-          background-image: url(../img/pinterest.png);
-        }
+        background-image: url(../img/pinterest.png);
       }
       &:last-of-type {
-        div {
-          background-image: url(../img/twitter.png);
-        }
+        background-image: url(../img/twitter.png);
       }
     }
   }
