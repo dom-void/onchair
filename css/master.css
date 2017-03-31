@@ -360,7 +360,7 @@ a .button:hover {
   align-items: center;
 }
 
-.price-box .price-button-box a .price-button {
+.price-box .price-button-box a {
   color: white;
   width: 120px;
   height: 34px;
@@ -371,7 +371,7 @@ a .button:hover {
   border-radius: 7px;
 }
 
-.price-box .price-button-box a .price-button:hover {
+.price-box .price-button-box a:hover {
   color: #2EB9A0;
   background-color: white;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
@@ -416,12 +416,12 @@ a .button:hover {
   background: #F0F1F2;
 }
 
-.green-colored .price-button-box a .price-button {
+.green-colored .price-button-box a {
   color: #2EB9A0;
   background: white;
 }
 
-.green-colored .price-button-box a .price-button:hover {
+.green-colored .price-button-box a:hover {
   color: white;
   background-color: #2EB9A0;
 }
@@ -504,7 +504,7 @@ a .button:hover {
   padding: 0 15px 0 15px;
 }
 
-.contact-container .send-box a .send-button {
+.contact-container .send-box a {
   color: white;
   font-size: 2rem;
   width: 100%;
@@ -518,7 +518,7 @@ a .button:hover {
   bottom: 0px;
 }
 
-.contact-container .send-box a .send-button:hover {
+.contact-container .send-box a:hover {
   color: #2EB9A0;
   background-color: white;
   border: 2px solid #2EB9A0;

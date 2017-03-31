@@ -358,7 +358,6 @@ a {
     justify-content: center;
     align-items: center;
     a {
-      .price-button {
       color: white;
       width: 120px;
       height: 34px;
@@ -370,10 +369,8 @@ a {
       &:hover {
         color: #2EB9A0;
         background-color: white;
-        // border: 2px solid #2EB9A0;
         box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
         box-sizing: border-box;
-        }
       }
     }
   }
@@ -418,13 +415,11 @@ a {
   }
   .price-button-box {
     a {
-      .price-button {
-        color: #2EB9A0;
-        background: white;
-        &:hover {
-          color: white;
-          background-color: #2EB9A0;
-        }
+      color: #2EB9A0;
+      background: white;
+      &:hover {
+        color: white;
+        background-color: #2EB9A0;
       }
     }
   }
@@ -499,24 +494,22 @@ a {
       }
     }
     a {
-      .send-button {
       color: white;
       font-size: 2rem;
-        width: 100%;
-        height: 70px;
-        background-color: #2EB9A0;
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        bottom: 0px;
-        &:hover {
-          color: #2EB9A0;
-          background-color: white;
-          border: 2px solid #2EB9A0;
-          box-sizing: border-box;
-        }
+      width: 100%;
+      height: 70px;
+      background-color: #2EB9A0;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 0px;
+      &:hover {
+        color: #2EB9A0;
+        background-color: white;
+        border: 2px solid #2EB9A0;
+        box-sizing: border-box;
       }
     }
   }
